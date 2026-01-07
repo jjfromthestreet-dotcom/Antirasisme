@@ -1,0 +1,19 @@
+
+> app@0.1.0 dev
+> next dev
+
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.17.0.2:3000
+
+✓ Starting...
+✓ Ready in 554ms
+⚠ Cross origin request detected from preview-wqwjbrqkjfqy.share.sandbox.dev to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET / 200 in 576ms (compile: 399ms, render: 176ms)
+ GET / 200 in 740ms (compile: 595ms, render: 145ms)
+ GET / 200 in 1407ms (compile: 1270ms, render: 137ms)
+ GET / 200 in 55ms (compile: 8ms, render: 47ms)
+ GET / 200 in 38ms (compile: 3ms, render: 35ms)
+ GET / 200 in 32ms (compile: 2ms, render: 29ms)
+ GET / 200 in 28ms (compile: 1988µs, render: 26ms)

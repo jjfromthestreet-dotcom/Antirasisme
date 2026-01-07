@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --folkehjelp-green: #01ab4d;
+  --folkehjelp-dark: #033520;
+  --folkehjelp-pink: #c49384;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: Arial, Helvetica, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Norsk Folkehjelp merkevarefarge utilities */
+.bg-folkehjelp {
+  background-color: var(--folkehjelp-green);
+}
+
+.bg-folkehjelp-dark {
+  background-color: var(--folkehjelp-dark);
+}
+
+.bg-folkehjelp-pink {
+  background-color: var(--folkehjelp-pink);
+}
+
+.text-folkehjelp {
+  color: var(--folkehjelp-green);
+}
+
+.text-folkehjelp-dark {
+  color: var(--folkehjelp-dark);
+}
+
+.border-folkehjelp {
+  border-color: var(--folkehjelp-green);
+}
+
+.hover\:bg-folkehjelp-dark:hover {
+  background-color: var(--folkehjelp-dark);
+}
+
+.hover\:text-folkehjelp:hover {
+  color: var(--folkehjelp-green);
+}
+
+.from-folkehjelp {
+  --tw-gradient-from: var(--folkehjelp-green);
+}
+
+.to-folkehjelp-dark {
+  --tw-gradient-to: var(--folkehjelp-dark);
+}
+
+.border-l-folkehjelp {
+  border-left-color: var(--folkehjelp-green);
+}
